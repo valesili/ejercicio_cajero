@@ -1,0 +1,40 @@
+main#login {
+  width: 25rem;
+  max-width: 80vw;
+  padding: 1rem;
+
+  // background-color: #fff1;
+  border-radius: 1rem;
+
+  #logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+
+  h2 {
+    color: white;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  p {
+    color: $primary-light;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+
+    > * {
+      display: block;
+    }
+    label {
+      font-size: 0.8rem;
+      color: $primary-light;
+      margin-bottom: 0.5rem;
+      padding-left: 0.75rem;
+    }
+  }
+}

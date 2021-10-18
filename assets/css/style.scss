@@ -1,0 +1,83 @@
+// Variables
+@import "scss/variables.scss";
+
+// Login
+@import "scss/login.scss";
+
+// Cuenta
+@import "scss/cuenta.scss";
+
+.m {
+  &b- {
+    &2 {
+      margin-bottom: 1rem;
+    }
+    &3 {
+      margin-bottom: 1.5rem !important;
+    }
+  }
+}
+
+body {
+  height: 100vh;
+  // background-color: $primary-dark;
+  background: linear-gradient(135deg, #241099 -20%, $primary-dark 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  color: $primary-light;
+  background-color: transparent;
+  border: 1px solid $primary-light;
+  border-radius: 1rem;
+  padding: 0.5rem 0.75rem;
+  opacity: 0.5;
+}
+
+button {
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.btn-block {
+  color: $primary-light;
+  width: 100%;
+  height: 2rem;
+  background-color: $primary;
+  border: none;
+  font-weight: bold;
+  transition: all ease-in-out 0.3s;
+  // display: block;
+
+  &:hover {
+    background-color: darken($primary, 5%);
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-regresar {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-cerrar-sesion{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  height: 2rem;
+  width: 7rem;
+  font-weight: bold;
+}

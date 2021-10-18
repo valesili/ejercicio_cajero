@@ -1,0 +1,123 @@
+/* Variables */
+main#login {
+  width: 25rem;
+  max-width: 80vw;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+main#login #logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+main#login h2 {
+  color: white;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+main#login p {
+  color: #c0bdde;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+main#login .form-group {
+  margin-bottom: 1rem;
+}
+
+main#login .form-group > * {
+  display: block;
+}
+
+main#login .form-group label {
+  font-size: 0.8rem;
+  color: #c0bdde;
+  margin-bottom: 0.5rem;
+  padding-left: 0.75rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem !important;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #241099 -20%, #150c41 80%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #c0bdde;
+  background-color: transparent;
+  border: 1px solid #c0bdde;
+  border-radius: 1rem;
+  padding: 0.5rem 0.75rem;
+  opacity: 0.5;
+}
+
+button {
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.btn-block {
+  color: #c0bdde;
+  width: 100%;
+  height: 2rem;
+  background-color: #7a4bff;
+  border: none;
+  font-weight: bold;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.btn-block:hover {
+  background-color: #6732ff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-regresar {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-cerrar-sesion {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  height: 2rem;
+  width: 7rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
